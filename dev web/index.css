@@ -1,0 +1,60 @@
+h1{
+    color: blue;
+    font-size: 10px;
+}
+
+p{
+    color: red;
+    font-size: 8px;
+}
+span{
+    color: green;
+    font-size: 15px;
+}
+h1:hover{
+    color: bisque;
+    cursor: grab;
+}
+
+p:hover{
+    color: bisque;
+    cursor:copy
+}
+span:hover{
+    color: bisque;
+    cursor:pointer;
+}
+.image1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+}
+.divhome{
+    display: flex;
+    flex-direction: row;
+}
+.divprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h2divhome{
+    margin-left: 3rem;
+}
+.ret{
+    display:flex ;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: solid;
+}
+.imagee{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+}
